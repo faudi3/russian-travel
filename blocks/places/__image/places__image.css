@@ -1,0 +1,3 @@
+.places__image {
+  width: calc(50% - 40px);
+}
