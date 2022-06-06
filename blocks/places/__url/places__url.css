@@ -1,0 +1,12 @@
+.places__url {
+  font-size: 12px;
+  line-height: 20px;
+  color:#AAAAAA;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 984px) {
+  .places__url {
+    line-height: 12px;
+  }
+}
