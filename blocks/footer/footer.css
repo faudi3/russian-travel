@@ -8,7 +8,6 @@
   margin-bottom: 24px;
 }
 
-
 @media screen and (max-width: 723px) {
   .footer__links {
     display: flex;

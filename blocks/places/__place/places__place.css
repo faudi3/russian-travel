@@ -8,7 +8,6 @@
 
 @media screen and (max-width: 568px) {
   .places__place {
-  margin-bottom: 0;
-
+    margin-bottom: 0;
   }
 }
