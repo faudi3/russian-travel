@@ -56,7 +56,6 @@
 
 .page {
   margin: 0 auto;
-
   background: #2A2C2F;
   color: white;
   font-weight: 400;
@@ -71,4 +70,15 @@
   -moz-text-size-adjust: 100%;
   text-rendering:optimizeLegibility;
 
+
+}
+
+h1,h2,h3,h4,p {
+  margin: 0 auto;
+  padding:0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
