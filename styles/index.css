@@ -12,7 +12,6 @@
 @import url('../blocks/lead/__subtitle/lead__subtitle.css');
 @import url('../blocks/lead/__image/lead__image.css');
 @import url('../blocks/lead/__caption/lead__caption.css');
-
 /* intro */
 @import url('../blocks/intro/intro.css');
 @import url('../blocks/intro/__title/intro__title.css');
@@ -30,6 +29,7 @@
 @import url('../blocks/places/__image/places__image.css');
 @import url('../blocks/places/__url/places__url.css');
 @import url('../blocks/places/__cont/places__cont.css');
+@import url('../blocks/places/__paragraphs/places__paragraphs')
 /* cover */
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/cover/__item/cover__item.css');
@@ -37,7 +37,8 @@
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
 /* footer  */
 @import url('../blocks/footer/footer.css');
-@import url('../blocks/footer/__links/footer__links.css');
+@import url('../blocks/footer/__links/footer__link.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
 /* bottom and top columns ( for places) */
 @import url('../blocks/top-column/top-column.css');
 @import url('../blocks/bottom-column/bottom-column.css');
@@ -56,13 +57,10 @@
   min-height: 100vh;
   font-family: 'Inter';
   font-weight: 400;
-}
-
-h1,h2,h3,h4,p {
-  margin: 0 auto;
-}
-
-a {
-  text-decoration: none;
-  color: white;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering:optimizeLegibility;
 }

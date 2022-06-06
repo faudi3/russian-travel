@@ -1,7 +1,41 @@
-.places__paragraph {
+@media screen and (min-width:1140px) {
+  .places__paragraph {
   margin-left: 40px;
-  border: 1px solid red;
   margin-bottom: 26px;
   font-size: 18px;
   line-height: 29px;
+  font-family: 'Inter';
+
+}
+  }
+
+
+
+@media screen and (max-width: 984px) and (min-width:568px){
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 28px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 1140px) and (min-width:984px) {
+  .places__paragraph {
+  margin-left: 32px;
+  }
+}
+
+@media screen and (max-width: 568px) and (min-width:319px) {
+  .places__paragraph {
+    padding-left: 0;
+    padding-bottom:25px;
+    margin-left: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: 'Inter';
+  }
 }

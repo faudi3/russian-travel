@@ -3,8 +3,28 @@
   justify-content:space-between;
   margin-left: 48px;
   margin-right: 48px;
-  border: 1px solid red;
   margin-top: 92px;
   max-width: 1184px;
   margin-bottom: 24px;
+}
+
+
+@media screen and (max-width: 723px) {
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+    margin-left: 16px;
+  }
+  .footer {
+    flex-direction: column;
+    margin-left: 16px;
+    margin-top: 64px;
+  }
+}
+
+@media screen and (max-width:568px) {
+  .footer {
+    margin-left:16px;
+  }
 }

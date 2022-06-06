@@ -1,5 +1,13 @@
 .places__cont {
-    border: 1px solid red;
+
     align-self: flex-end;
     width: calc(100% / 2);
+}
+
+@media screen and (max-width:568px) {
+  .places__cont {
+      align-self: auto;
+      padding-bottom: 32px;
+      padding-left: 16px;
+  }
 }

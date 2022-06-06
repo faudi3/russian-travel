@@ -8,13 +8,28 @@
   margin-right: 48px;
   grid-gap:16px;
   margin-top: 92px;
-  border: 1px solid red;
 }
 
 @media screen and (min-width: 1280px) {
   .photo-grid {
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(3,1fr);
-    border: 1px solid blue;
+  }
+}
+
+@media screen and (max-width:984px) {
+  .photo-grid {
+    margin-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width:568px) {
+  .photo-grid {
+    margin-top: 64px;
+    margin-left: 16px;
+    margin-right: 16px;
+    grid-gap:12px;
   }
 }

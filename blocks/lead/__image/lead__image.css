@@ -2,3 +2,16 @@
   margin-top: 64px;
   width: 100%;
 }
+
+@media screen and (max-width: 1140px) {
+  .lead__image {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .lead__image {
+    margin-top: 40px;
+
+  }
+}

@@ -5,3 +5,10 @@
 .places__place:last-child {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 568px) {
+  .places__place {
+  margin-bottom: 0;
+
+  }
+}
