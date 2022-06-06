@@ -1,5 +1,8 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Rubik+Bubbles&family=Suez+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Rubik+Bubbles&family=Suez+One&display=swap'); */
+
+
+
 
  /* header  */
 @import url('../blocks/header/header.css');
@@ -44,11 +47,16 @@
 @import url('../blocks/bottom-column/bottom-column.css');
 
 
+@font-face {
+  font-family: 'Inter';
+  src: url('../vendor/fonts/Desktop/Inter-Black.otf') format('opentype');
+  font-weight: 400;
+}
 
 
 .page {
   margin: 0 auto;
-  padding: 0 auto;
+
   background: #2A2C2F;
   color: white;
   font-weight: 400;
@@ -56,12 +64,11 @@
   max-width: 1280px;
   min-height: 100vh;
   font-family: 'Inter';
-  font-weight: 400;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering:optimizeLegibility;
-  
+
 }

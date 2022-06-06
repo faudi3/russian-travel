@@ -1,7 +1,7 @@
 .cover__item {
   min-height: 740px;
   box-sizing: border-box;
-  padding: 20px;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
