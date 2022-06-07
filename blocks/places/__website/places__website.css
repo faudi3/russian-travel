@@ -1,0 +1,11 @@
+.places__website {
+  align-self: flex-end;
+}
+
+
+@media screen and (max-width: 568px) {
+  .places__website {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

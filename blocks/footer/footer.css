@@ -2,11 +2,12 @@
   display: flex;
   justify-content:space-between;
   margin-top: 92px;
-  max-width: 1184px;
+  margin-left: 48px;
+  margin-right: 48px;
   margin-bottom: 24px;
 }
 
-@media screen and (max-width: 723px) {
+@media screen and (max-width: 740px) {
   .footer__links {
     display: flex;
     flex-direction: column;

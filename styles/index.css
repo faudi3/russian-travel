@@ -1,5 +1,5 @@
 /* fonts */
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Rubik+Bubbles&family=Suez+One&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@320;900&family=Rubik+Bubbles&family=Suez+One&display=swap'); */
 
 
 
@@ -24,15 +24,13 @@
 @import url('../blocks/photo-grid/photo-grid.css');
 @import url('../blocks/photo-grid/__item/photo-grid__item.css');
 /* places */
-@import url('../blocks/places/places.css');
-@import url('../blocks/places/__title/places__title.css');
 @import url('../blocks/places/__place/places__place.css');
+@import url('../blocks/places/__title/places__title.css');
+@import url('../blocks/places/__image/places__image.css');
 @import url('../blocks/places/__link/places__link.css');
 @import url('../blocks/places/__paragraph/places__paragraph.css');
-@import url('../blocks/places/__image/places__image.css');
-@import url('../blocks/places/__url/places__url.css');
-@import url('../blocks/places/__cont/places__cont.css');
-@import url('../blocks/places/__paragraphs/places__paragraphs')
+@import url('../blocks/places/__heading/places__heading.css');
+@import url('../blocks/places/__website/places__website.css');
 /* cover */
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/cover/__item/cover__item.css');
@@ -42,20 +40,23 @@
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__links/footer__link.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
-/* bottom and top columns ( for places) */
-@import url('../blocks/top-column/top-column.css');
-@import url('../blocks/bottom-column/bottom-column.css');
 
 
 @font-face {
   font-family: 'Inter';
   src: url('../vendor/fonts/Desktop/Inter-Black.otf') format('opentype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Inter2';
+  src: url('../vendor/fonts/Desktop/Inter-Medium.otf') format('opentype');
   font-weight: 400;
 }
 
-
 .page {
   margin: 0 auto;
+  padding:0 auto;
   background: #2A2C2F;
   color: white;
   font-weight: 400;
@@ -69,13 +70,14 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering:optimizeLegibility;
-
-
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 h1,h2,h3,h4,p {
   margin: 0 auto;
-  padding:0;
+  padding:0 auto;
 }
 
 a {

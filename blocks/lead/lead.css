@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   max-width: 984px;
-  min-width: 320px;
+  text-align: center;
 }
 
 @media screen and (max-width: 1140px) {
@@ -15,6 +15,7 @@
     margin-top: 48px;
     margin-left: 48px;
     margin-right: 48px;
+    max-width: 1140px;
   }
 }
 
@@ -22,6 +23,7 @@
   .lead {
     margin-left: 0;
     margin-right: 0;
+    max-width: 984px;
   }
 }
 
@@ -29,5 +31,6 @@
   .lead {
     margin-left: 0;
     margin-right: 0;
+    max-width: 568px;
   }
 }
