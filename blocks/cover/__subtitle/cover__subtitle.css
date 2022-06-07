@@ -5,6 +5,7 @@
   text-align: center;
   max-width: 360px;
   font-weight: 400;
+  font-family: 'Inter2';
 }
 
 @media screen and (max-width:568px) {

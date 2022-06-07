@@ -1,28 +1,3 @@
 .places__image {
-  width: calc(50% - 40px);
-  height: calc(50% - 40px);
-}
-
-@media screen and (max-width:1140px) {
-  .places__image {
-      width: calc(50% - 32px);
-      height: calc(50% - 32px);
-  }
-}
-
-@media screen and (max-width:984px) {
-  .places__image {
-    width: calc(50% - 28px);
-    height: calc(50% - 28px);
-  }
-}
-
-@media screen and (max-width:568px) {
-  .places__image {
-    width: 100%;
-    height: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 32px;
-  }
+  width:100%;
 }
