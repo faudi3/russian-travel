@@ -7,11 +7,19 @@
   min-width: 288px;
   font-family: 'Inter2';
 
+  border:1px solid red;
 }
 
 @media screen and (max-width: 750px) {
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .lead__subtitle {
+  padding-left: 16px;
+  padding-right: 16px;
   }
 }
