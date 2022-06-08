@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../vendor/fonts/Desktop/Inter-Black.otf') format('opentype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Inter2';
+  src: url('../vendor/fonts/Desktop/Inter-Medium.otf') format('opentype');
+  font-weight: 400;
+}

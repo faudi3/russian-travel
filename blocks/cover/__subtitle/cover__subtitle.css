@@ -6,6 +6,8 @@
   max-width: 360px;
   font-weight: 400;
   font-family: 'Inter2';
+  text-decoration: none;
+  color: white;
 }
 
 @media screen and (max-width:568px) {
