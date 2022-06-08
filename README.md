@@ -6,5 +6,5 @@
 ### Использованные технологии
 html,css, методолгия БЭМ nested. Использованы приемы адаптирования.
 
-###Git Pages
+### GitHub Pages
 https://faudi3.github.io/russian-travel/index.html
