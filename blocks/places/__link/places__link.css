@@ -3,6 +3,7 @@
   line-height: 22px;
   font-family: 'Inter2';
   text-decoration-line: underline;
+  color: white;
 }
 
 .places__link:hover {
