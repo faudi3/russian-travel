@@ -1,6 +1,9 @@
 .intro__title {
   font-size: 54px;
   line-height: 58px;
+  font-family: 'Inter-Black',sans-serif,Arial;
+  margin:0;
+  padding: 0;
 }
 
 @media screen and (max-width: 568px) {
