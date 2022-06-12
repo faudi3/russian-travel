@@ -3,7 +3,6 @@
   margin-left: 148px;
   margin-right: 148px;
   margin-bottom: 80px;
-  max-width: 984px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr minmax(320px,460px));
@@ -14,7 +13,6 @@
 
 @media screen and (max-width:1140px) {
   .places__place {
-    max-width: 928px;
     margin-left: 48px;
     margin-right: 48px;
   }
@@ -22,7 +20,6 @@
 
 @media screen and (max-width:984px) {
   .places__place {
-    max-width: 720px;
     margin-left: 24px;
     margin-right: 24px;
   }
