@@ -6,8 +6,6 @@
   max-width: 640px;
   min-width: 288px;
   font-family: 'Inter-Regular',sans-serif,Arial;
-  font-weight: 400;
-  max-width: 640px;
 }
 
 @media screen and (max-width: 750px) {
